@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Isabelle Rosenquist</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <style>
+  body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+    background-color: #1abc9c; /* Green */
+    color: #ffffff;
+  }
+  .bg-2 { 
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+  }
+  .bg-3 { 
+    background-color: #ffffff; /* White */
+    color: #555555;
+  }
+  .bg-4 { 
+    background-color: #2f2f2f; /* Black Gray */
+    color: #fff;
+  }
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+    color: #1abc9c !important;
+  }
+  .auto{
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  a {
+  color:inherit;
+  text-decoration: none;
+ }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Isabelle Rosenquist</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about">ABOUT ME</a></li>
+        <li><a href="#projects">PROJECTS</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center" id="about">
+  <h2 class="margin">About me</h2>
+  <img src="img/isa.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Me" width="350" height="350">
+  <p>Hello! My name is Isabelle Rosenquist, born 1993 and currently living in Norrköping, Sweden. Right know I'm studying for a <i>Master of science in Media Technology and Engineering</i> at Linkoping University. From my education I have attended classes in the field of computer graphics, information visualization, web developement and image analysis. For a full list of attended courses, see my <a href="https://www.linkedin.com/in/isabelle-rosenquist-3a034986/" target="_blank">Linkedin profile</a>. I am intresting in front end development, information visualization, UX and geovisualization. In addition to my studies, I have been involved in many student associations as well as working in a gym as an grouptrainingsinstructor. You can read my full resume <a href="files/CV_2019.pdf" target="_blank">here</a>. </p>
+
+</div>
+
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center" id="projects">
+  <h3 class="margin">Projects</h3>
+  <p>From my education in Master of Media Technology and Engineering I have attended several courses in the areas of 3D, information vizualisation, artificial intelligence, graphics design, user experience(UX), web development and image analysis. Below is a selection of some projects made in courses. This list is updated frequently.</p>
+  <div class="row">
+    <div class="col-sm-4"> 
+     <h4>TNM094 Bachelor Project in Media Technology</h4>
+     <img src="img/sectra.png" class="img-responsive margin center-block" style="width:100%" alt="Image">
+      <p>A bachelor project for Sectra. A web application for browsing and searching for files stored in database supplied to developers. See Github repo <a href="https://github.com/rcedermalm/ProjectH" target="_blank">here</a>.</p>
+    </div>
+    <div class="col-sm-4"> 
+     <h4>TDDD27 Advanced Web Programming</h4>
+           <img src="img/higha.png" class="img-responsive margin center-block" style="width:80%" alt="Image">
+      <p>Created a MEAN-stack with Mongo DB, Express.js, Angular and Node. A web application where you can create a user, sign in and upload a status. See Gitlab repo <a href="https://gitlab.ida.liu.se/isaro242/TDDD27_2018_higha" target="_blank">here</a> and screencast <a href="https://youtu.be/QqdKAc6tYfE" target="_blank">here</a>.</p>
+    </div>
+    <div class="col-sm-4"> 
+     <h4>TNM069 Graphics Design and Communication</h4>
+     <div class="text-center">
+      <img src="img/tie.png" class="img-responsive margin center-block" style="width:70%" alt="Image">
+      </div>
+      <p>Created a graphical profile and artefacts for a fictional company named TIE. The was a social media platform for busines connections, such as Linkedin. See graphical profile <a href="files/TNM069_profile.pdf" target="_blank">here</a> and artefacts (flyer, roll-up, webpage mockup) <a href="files/TNM069_flyer.pdf" target="_blank">here</a>.</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+     <h4>TNM100 Structural Methods for User Experience (UX)</h4>
+     <img src="img/cnema.png" class="img-responsive margin center-block" style="width:100%" alt="Image">
+      <p>A course in UX were a Lo-Fi prototype for an app was created, see pictures and read the report <a href="files/TNM100_UPG1.pdf" target="_blank">here</a>. Did a mockup of an existing webpage after usabiliy testing. See more pictures and read report <a href="files/TNM100_UPG3.pdf">here</a>. 
+      </p>
+    </div>
+    <div class="col-sm-4">
+    <h4>TNM061 3-D Computer Graphics</h4>
+    <img src="img/bob.png" class="img-responsive margin center-block" style="width:50%" alt="Image">
+      <p>Modeling of 3D objects, figures and environment. The created images were rendered and used for a short film. Software used for modeling was Autodesk 3Ds Max. Link to video <a href="https://www.youtube.com/watch?v=1k2IEakxN-E">here</a>.</p>
+    </div>
+    <div class="col-sm-4">
+    </div>
+</div>
+
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-3 text-center" id="contact">    
+  <h2 class="margin">Contact me</h2><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <h4>0760737984</h4>
+      <span class="glyphicon glyphicon-earphone"></span>
+    </div>
+    <div class="col-sm-4"> 
+      <h4>isabelle.rosenquist@gmail.com</h4>
+          <a href="mailto:isabelle.rosenquist@gmail.com">
+     <span class="glyphicon glyphicon-envelope"></span>
+     </a>
+    </div>
+    <div class="col-sm-4"> 
+      <p>Isabelle Rosenquist</p>
+       <a href="https://www.linkedin.com/in/isabelle-rosenquist-3a034986/" target="_blank">
+      <div class="text-center">
+      <img src="img/linkedin.png" style="width:8%" alt="linkedin">
+      </div>
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+  <p>&copy 2019 by Isabelle Rosenquist</span></p> 
+</footer>
+
+</body>
+</html>
